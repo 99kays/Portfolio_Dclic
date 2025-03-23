@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  header {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+header {
+    background-color: rgb(147, 167, 202);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+header .profile{
+    display: flex;
+    align-items: center;
+}
+header .profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+}
+header .profile h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+
+}
+header ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(147, 167, 202);
+}
+header ul li:hover{
+    border-bottom-color: black;
+  }
+  
+  /**h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  /*a {
+    color: #0078d7;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #0056b3;
+  }*/
+  #profile {
+    display: flex;
+    margin: 5px;
+  }
+  #profile p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    text-align:left
+  }
+  #profile .profileGauche{
+    flex: 6px;
+  }
+  #profile .profileDroit{
+    flex: 5px;
+  
+  }
+  #profile .profileDroit img{
+   width: 60%;
+   margin-top: 10px;
+   border-radius: 50%;
+  }
+  #profile .profileGauche a{
+    cursor: pointer;
+    width: 25%;
+    height: 25%;
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: rgb(147, 167, 202);
+    border-radius: 30px;
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 100px;
+    
+  }
+  #a-propos{
+    margin-top: 50px;
+  }
+  #a-propos .apropoGauche{
+    flex: 6px;
+  }
+  #a-propos .apropoDroit{
+    flex: 5px;
+  }
+  #a-propos .apropoDroit img{
+    width: 40%;
+    height: 20%;
+    border-radius: 80%;
+    margin-left: 60%;
+    margin-top: -25%;
+  }
+  #a-propos h1{
+    font-size: 3vw;
+    margin-left: 40%;
+  }
+  #a-propos .apropoGauche P{
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    justify-content: center;
+  }
+  #a-propos .apropoGauche button{
+    cursor: pointer;
+    width: 25%;
+    height: 25%;
+    padding: 5px 5px;
+    font-size: 2em;
+    background-color:rgb(147, 167, 202);
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+  }
+  #projets {
+    margin-top: 40px;
+    background-color: #e9ecef;
+   
+  }
+  #projets h1{
+    font-size: 3vw;
+    margin-left: 40%;
+  }
+  #projets div{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+.realisation{
+    max-width: 10%;
+}
+.realisation button{
+    margin-left: 10%;
+    cursor: pointer;
+    background-color:  rgb(147, 167, 202);
+    font-weight: bold;
+    width: 30%;
+}
+#competences h1{
+    font-size: 3vw;
+    margin-left: 40%;
+    margin-top: 5%;
+    justify-items: center;
+}
+div.hardSkills{
+  margin-left: 60%;
+  margin-top: -20%;
+}
+div.softSkills{
+  margin-left: 10%;
+  margin-top: 40px;
+}
+#contact h1{
+  font-size: 3vw;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+#contact p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    text-align:center
+}
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+.contactForm label{
+  margin-top: 10px;
+}
+.contactForm input{
+  padding: 5px;
+}
+.contactForm textarea{
+  padding: 10px;
+}
+.contactForm button{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(147, 167, 202);
+  border: none;
+  cursor: pointer;
+}
+
+  
+  .realisation {
+    background-color:#fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  #competences .barDeCompetence {
+    background-color:none;
+    border-radius: 8px;
+    height: 0,5rem;
+  
+    
+  }
+  #competences .niveauDeCompetence {
+    background-color: #0078d7;
+    border-radius: 8px;
+    height: 1rem;
+    width: 20%;
+  }
+  footer {
+    background-color: rgb(147, 167, 202);
+    color: #fff;
+    padding: 1rem;
+    text-align:right;
+    margin-top: 2rem;
+    justify-content: center;
+  }
